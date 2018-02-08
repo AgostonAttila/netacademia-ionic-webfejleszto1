@@ -1,0 +1,11 @@
+page-home {
+  .event-fab-container {
+    position: fixed;
+    display: inline-block;
+    right: 2em;
+    bottom: 5em;
+  }
+  .event-edit-button {
+    color: lighten($color: map-get($map: $colors, $key: base), $amount: 40%);
+  }
+}
